@@ -1,4 +1,4 @@
-// File: D:\xampp\htdocs\usefull-things-295-scroll\app\layout.tsx
+// File: D:\xampp\htdocs\usefull-things-422-gallery\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

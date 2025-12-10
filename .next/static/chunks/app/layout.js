@@ -8,20 +8,31 @@
  */
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/layout"],{
 
-/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false!":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false! ***!
-  \*******************************************************************************************************/
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cusefull-things-422-gallery%5C%5Csrc%5C%5Cassets%5C%5Ccss%5C%5Cstyle.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cusefull-things-422-gallery%5C%5Csrc%5C%5Cassets%5C%5Ccss%5C%5Cstyle.css%22%2C%22ids%22%3A%5B%5D%7D&server=false! ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/assets/css/style.css */ \"(app-pages-browser)/./src/assets/css/style.css\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyRCUzQSU1QyU1Q3hhbXBwJTVDJTVDaHRkb2NzJTVDJTVDdXNlZnVsbC10aGluZ3MtNDIyLWdhbGxlcnklNUMlNUNzcmMlNUMlNUNhc3NldHMlNUMlNUNjc3MlNUMlNUNzdHlsZS5jc3MlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0Qmc2VydmVyPWZhbHNlISIsIm1hcHBpbmdzIjoiQUFBQSw4S0FBK0ciLCJzb3VyY2VzIjpbIiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIkQ6XFxcXHhhbXBwXFxcXGh0ZG9jc1xcXFx1c2VmdWxsLXRoaW5ncy00MjItZ2FsbGVyeVxcXFxzcmNcXFxcYXNzZXRzXFxcXGNzc1xcXFxzdHlsZS5jc3NcIik7XG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cusefull-things-422-gallery%5C%5Csrc%5C%5Cassets%5C%5Ccss%5C%5Cstyle.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!\n"));
 
+/***/ }),
+
+/***/ "(app-pages-browser)/./src/assets/css/style.css":
+/*!**********************************!*\
+  !*** ./src/assets/css/style.css ***!
+  \**********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"339a172e2c03\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9hc3NldHMvY3NzL3N0eWxlLmNzcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsY0FBYztBQUM3QixJQUFJLElBQVUsSUFBSSxpQkFBaUIiLCJzb3VyY2VzIjpbIkQ6XFx4YW1wcFxcaHRkb2NzXFx1c2VmdWxsLXRoaW5ncy00MjItZ2FsbGVyeVxcc3JjXFxhc3NldHNcXGNzc1xcc3R5bGUuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiMzM5YTE3MmUyYzAzXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/assets/css/style.css\n"));
 
 /***/ })
 
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["main-app"], () => (__webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false!")));
+/******/ __webpack_require__.O(0, ["main-app"], () => (__webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5Cxampp%5C%5Chtdocs%5C%5Cusefull-things-422-gallery%5C%5Csrc%5C%5Cassets%5C%5Ccss%5C%5Cstyle.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!")));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }

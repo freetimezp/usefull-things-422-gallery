@@ -7,9 +7,14 @@
         "lint:fix": "eslint --fix"
     },
     "dependencies": {
+        "@gsap/react": "^2.1.2",
+        "@tailwindcss/postcss": "^4.1.17",
+        "gsap": "^3.14.1",
         "next": "^15.5.2",
+        "postcss": "^8.5.6",
         "react": "^19.1.1",
-        "react-dom": "^19.1.1"
+        "react-dom": "^19.1.1",
+        "tailwindcss": "^4.1.17"
     },
     "devDependencies": {
         "@types/node": "24.3.1",
