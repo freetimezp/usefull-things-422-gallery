@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    background: #111;
+    font-family: "Manrope", sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* ========================================
+   MAIN SLIDER
+======================================== */
+
+.slider-images {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    opacity: 0;
+    z-index: 0;
+
+    will-change: transform, opacity, clip-path;
+}
+
+.image-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    will-change: transform;
+}
+
+.image-inner img {
+    display: block;
+
+    min-width: 100vw;
+    min-height: 100vh;
+
+    max-width: none;
+
+    object-fit: cover;
+
+    user-select: none;
+    pointer-events: none;
+}
+
+/* ========================================
+   MINIMAP
+======================================== */
+
+.minimap {
+    position: absolute;
+
+    right: 2rem;
+    bottom: 2rem;
+
+    width: 12rem;
+    aspect-ratio: 16 / 9;
+
+    overflow: hidden;
+
+    z-index: 20;
+
+    cursor: pointer;
+}
+
+.minimap-track {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.mini-slide {
+    position: absolute;
+    inset: 0;
+
+    overflow: hidden;
+
+    opacity: 0;
+    z-index: 0;
+
+    will-change: transform, opacity, clip-path;
+}
+
+.mini-slide img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    user-select: none;
+    pointer-events: none;
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+    .minimap {
+        right: 1rem;
+        bottom: 1rem;
+
+        width: 8rem;
+    }
+}
